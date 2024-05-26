@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+.qr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.qr-body {
+  background-color: #fafafadf;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.qr-input-container {
+  margin-bottom: 20px;
+}
+
+.qr-input {
+  padding: 10px;
+  font-size: 1rem;
+  width: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.qr-code-container {
+  position: relative;
+  display: inline-block;
+}
+
+.qr-code {
+  margin-top: 20px;
+}
+
+/* .qr-code canvas {
+  border:solid #f0f0f0;
+  border-radius: 10px;
+} */
+
+.qr-code-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.qr-header {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #2d2625, #de583d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.download-button {
+  background: linear-gradient(135deg, #000000, #ff330a);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.download-button:hover {
+  background: linear-gradient(135deg, #ff330a, #000000);
+  box-shadow: 0 4px 8px rgba(44, 1, 1, 0.2);
+}
