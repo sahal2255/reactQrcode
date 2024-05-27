@@ -22,9 +22,10 @@ import QRCode from 'qrcode.react'
     document.body.removeChild(downloadLink)
   }
 
-  return(
+  return(   
 
     <div className='qr-container'>
+      {/* gjh */}
       <div className='qr-body'>
           <h1 className='qr-header'>QRCode Generator</h1>
         <div className='qr-input-container'>
